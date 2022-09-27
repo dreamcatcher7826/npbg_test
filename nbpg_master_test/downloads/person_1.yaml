@@ -1,0 +1,8 @@
+viewport_size: [4000, 2667]
+intrinsic_matrix: downloads/scenes/person_1/cameras.xml
+view_matrix: downloads/scenes/person_1/cameras.xml
+pointcloud: downloads/scenes/person_1/pointcloud.ply
+model3d_origin: downloads/scenes/person_1/origin.txt
+
+net_ckpt: downloads/scenes/person_1/02-20_08-42-55/UNet_stage_0_epoch_39_net.pth
+texture_ckpt: downloads/scenes/person_1/02-20_08-42-55/PointTexture_stage_0_epoch_39.pth

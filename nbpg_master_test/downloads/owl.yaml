@@ -1,0 +1,8 @@
+viewport_size: [2160, 3840]
+intrinsic_matrix: downloads/scenes/owl/cameras.xml
+view_matrix: downloads/scenes/owl/cameras.xml
+pointcloud: downloads/scenes/owl/pc.ply
+model3d_origin: downloads/scenes/owl/origin.txt
+
+net_ckpt: downloads/scenes/owl/02-19_14-17-51/UNet_stage_0_epoch_39_net.pth
+texture_ckpt: downloads/scenes/owl/02-19_14-17-51/PointTexture_stage_0_epoch_39.pth
