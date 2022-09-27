@@ -1,0 +1,15 @@
+datasets:
+    "scene":
+        scene_path: /home/drg/image_scene/image/scene.yaml
+        target_path:  /home/drg/image_scene/image/images_undistorted
+        target_name_func: "lambda i: f'{i}.png'"
+    "scene1":
+        scene_path: /home/drg/image_scene/image1/scene.yaml
+        target_path:  /home/drg/image_scene/image1/images_undistorted
+        target_name_func: "lambda i: f'{i}.png'"
+    # "scene":
+    #     scene_path: scene.yaml
+    #     target_path: images_undistorted
+    #     target_name_func: "lambda i: f'{i}.png'"
+    #     mask_path: masks_undistorted
+    #     mask_name_func: "lambda i: f'{i}.png'"
