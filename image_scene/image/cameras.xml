@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document version="1.5.0">
+  <chunk label="Chunk 1" enabled="true">
+    <sensors next_id="1">
+      <sensor id="0" label="unknown" type="frame">
+        <resolution width="480" height="360"/>
+        <property name="layer_index" value="0"/>
+        <bands>
+          <band label="Red"/>
+          <band label="Green"/>
+          <band label="Blue"/>
+        </bands>
+        <data_type>uint8</data_type>
+        <calibration type="frame" class="adjusted">
+          <resolution width="480" height="360"/>
+          <f>402.426164527138</f>
+        </calibration>
+        <covariance>
+          <params>f</params>
+          <coeffs>2.3987157070766057e+02</coeffs>
+        </covariance>
+      </sensor>
+    </sensors>
+    <cameras next_id="6" next_group_id="0">
+      <camera id="0" sensor_id="0" label="09009E9BA724B862C4AFD65BD2031E45"/>
+      <camera id="1" sensor_id="0" label="6CD3301489AC754B80D295F6BC217440"/>
+      <camera id="2" sensor_id="0" label="8E967F54BC95468E316726FC5780688D">
+        <transform>1 0 0 0 0 -1.0000000000000000e+00 0 0 0 0 -1.0000000000000000e+00 0 0 0 0 1</transform>
+      </camera>
+      <camera id="3" sensor_id="0" label="18DE3A972CF21BB26346AAA02155E332">
+        <transform>9.8409742669998945e-01 7.1010357987334807e-02 -1.6281825395504654e-01 5.2459657345644151e-01 6.5713149000363513e-02 -9.9712614075480643e-01 -3.7699356385509378e-02 1.1641682933077402e-01 -1.6502738200345857e-01 2.6400539425098474e-02 -9.8593558344708698e-01 -1.7991116600094498e-01 0 0 0 1</transform>
+        <rotation_covariance>1.6210478243099015e-06 5.4774178887908221e-06 -2.2308213822469358e-07 5.4774178887908221e-06 3.8393012185253657e-05 2.8677891793840511e-07 -2.2308213822469358e-07 2.8677891793840474e-07 3.8019759381643969e-07</rotation_covariance>
+        <location_covariance>1.5385758946979131e-03 3.3617387172767523e-04 3.9738165779424840e-05 3.3617387172767523e-04 1.4462181402846033e-04 5.8425898009122206e-05 3.9738165779424840e-05 5.8425898009122206e-05 1.1321818314073104e-04</location_covariance>
+      </camera>
+      <camera id="4" sensor_id="0" label="ABE3853B18381BAC2817775B812F1F6F">
+        <transform>9.5758677726219976e-01 1.2021757788426107e-01 -2.6186885645344815e-01 1.6084700478744343e+00 1.1221976724388384e-01 -9.9264839680862116e-01 -4.5341858729020884e-02 3.7960106485636708e-01 -2.6539458896579554e-01 1.4031902255772943e-02 -9.6403776786325179e-01 -7.1901576648804066e-01 0 0 0 1</transform>
+        <rotation_covariance>1.8885777895115808e-05 4.4748117940566817e-05 -9.6835850851731783e-06 4.4748117940566810e-05 2.5631069703292009e-04 -3.2949588027656270e-05 -9.6835850851731800e-06 -3.2949588027656270e-05 8.4414362194241818e-06</rotation_covariance>
+        <location_covariance>8.3073237469060457e-05 -4.8586257152567617e-05 1.6018761293513264e-04 -4.8586257152567603e-05 5.6306364111641108e-04 1.8857725338032382e-04 1.6018761293513261e-04 1.8857725338032382e-04 4.5790526297589913e-04</location_covariance>
+      </camera>
+      <camera id="5" sensor_id="0" label="B10DBE1198B9BD3A190A73D1DF9F67AC"/>
+    </cameras>
+    <reference>LOCAL_CS["Local Coordinates (m)",LOCAL_DATUM["Local Datum",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]</reference>
+    <region>
+      <center>-6.1776646999580431e-01 -7.2402266034161755e-01 -8.6037447948464845e+00</center>
+      <size>1.0801930018266042e+01 8.5522910316785179e+00 3.8683177193005882e+00</size>
+      <R>-9.3828316725848993e-01 -2.9013342492768140e-01 -1.8827451707310267e-01 5.7417982732433155e-02 -6.6746493992645706e-01 7.4242422456969237e-01 -3.4106872225156415e-01 6.8579380990841876e-01 6.4292999385079319e-01</R>
+    </region>
+    <settings>
+      <property name="accuracy_tiepoints" value="1"/>
+      <property name="accuracy_cameras" value="10"/>
+      <property name="accuracy_cameras_ypr" value="10"/>
+      <property name="accuracy_markers" value="0.005"/>
+      <property name="accuracy_scalebars" value="0.001"/>
+      <property name="accuracy_projections" value="0.5"/>
+    </settings>
+    <meta>
+      <property name="AlignCameras/adaptive_fitting" value="true"/>
+      <property name="AlignCameras/cameras" value=""/>
+      <property name="AlignCameras/duration" value="0.295572"/>
+      <property name="AlignCameras/min_image" value="2"/>
+      <property name="AlignCameras/ram_used" value="1372160"/>
+      <property name="AlignCameras/reset_alignment" value="false"/>
+      <property name="AlignCameras/subdivide_task" value="true"/>
+      <property name="OptimizeCameras/sigma0" value="0.113765141511089"/>
+    </meta>
+  </chunk>
+</document>
